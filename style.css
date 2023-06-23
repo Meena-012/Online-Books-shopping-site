@@ -1,0 +1,47 @@
+body {
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  } 
+img {
+  opacity: 0.6;
+}
+
+.top-left {
+    position: absolute;
+    top: 30px;
+    left: 45px;
+   color: rgb(0, 0, 0);
+   font-size: 252%;
+   font-family:Garamond;
+  }
+  .top-right {
+    position: absolute;
+    top: 68px;
+    right: 50px;
+    font-size: 130%;
+    border: 1px solid #848c95; 
+    background:transparent; 
+    padding:10px; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 90px;
+  }
+  
+  hr{
+    height:3.8px;
+    border-width:0;
+    color:black;
+    background-color:black;
+    width: 630%;
+  }
+  
+    .top-right:hover 
+    {
+    background: white; 
+    color: #007bff; 
+    text-decoration: none;
+}
+
+
